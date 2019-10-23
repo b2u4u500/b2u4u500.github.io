@@ -1064,6 +1064,30 @@ section#history .container .history-imgs-sm .swiper-container-history .swiper-sl
   background-image: url("./03素材/history/war.jpg");
 }
 
+section#history .container .history-imgs-sm .swiper-container-history .swiper-slide .history-sm-img2 {
+  width: 100%;
+  height: 100%;
+  background-image: url("./03素材/history/tunnel.jpg");
+}
+
+section#history .container .history-imgs-sm .swiper-container-history .swiper-slide .history-sm-img3 {
+  width: 100%;
+  height: 100%;
+  background-image: url("./03素材/history/committee.jpg");
+}
+
+section#history .container .history-imgs-sm .swiper-container-history .swiper-slide .history-sm-img4 {
+  width: 100%;
+  height: 100%;
+  background-image: url("./03素材/history/opera.jpg");
+}
+
+section#history .container .history-imgs-sm .swiper-container-history .swiper-slide .history-sm-img5 {
+  width: 100%;
+  height: 100%;
+  background-image: url("./03素材/history/post.jpg");
+}
+
 section#history .container .history-imgs-sm .swiper-container-history .swiper-slide:nth-child(n) {
   width: 90%;
 }
