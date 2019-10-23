@@ -966,13 +966,14 @@
    <script>
        window.onload = function () {
            lax.setup() // init
-           $(".load").fadeOut(3000);//preloader
+          
            const updateLax = () => {
                lax.update(window.scrollY)
                window.requestAnimationFrame(updateLax)
            }
 
            window.requestAnimationFrame(updateLax)
+           $(".load").fadeOut(3000);//preloader
        }
    </script>
  
