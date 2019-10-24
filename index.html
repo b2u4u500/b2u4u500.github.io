@@ -117,21 +117,21 @@
                 </ul>
             </div>
         </div>
-        <script>
+        <!-- <script>
             $(document).ready(function () {
                 $(".icon").click(function () {
                     $(".active-ul").toggleClass('action');
                 });
             })
-        </script>
+        </script> -->
 
-        <script>
+        <!-- <script>
             $(document).ready(function () {
                 $(".icon").click(function () {
                     $(".icon").toggleClass('active');
                 });
             })
-        </script>
+        </script> -->
     </header>
     <!-- banner -->
 
@@ -968,6 +968,17 @@
 
             window.requestAnimationFrame(updateLax)
             $(".load").fadeOut(3000); //preloader
+            // hamburger
+            $(document).ready(function () {
+                $(".icon").click(function () {
+                    $(".active-ul").toggleClass('action');
+                });
+            })
+            $(document).ready(function () {
+                $(".icon").click(function () {
+                    $(".icon").toggleClass('active');
+                });
+            })
         }
     </script>
 
